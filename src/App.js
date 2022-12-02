@@ -1,5 +1,6 @@
 import './App.css';
-import FunctionalState from './Components/FunctionalState';
+// import FunctionalState from './Components/FunctionalState';
+import  ClassState from './Components/ClassState';
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <>
       <h3>welcome react</h3>
       </>
-      <FunctionalState/> 
+      {/* <FunctionalState/>  */}
+      <ClassState/>
     </div>
   );
 }
